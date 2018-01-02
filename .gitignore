@@ -1,5 +1,6 @@
-.DS_Store
-Temp
+*.DS_Store
+*Temp
 *.pidb
 *.sln
 *.userprefs
+*.cache
