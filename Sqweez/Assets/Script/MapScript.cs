@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MapScript : MonoBehaviour {
-Transform posX;
-Transform posY;
+
 
 	// Use this for initialization
 	void Start () {

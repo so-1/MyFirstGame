@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class UpdateColor : MonoBehaviour
 {
-    private GetColor getColor;
+    private GetColor getColors;
 
     void Start()
     {
-        getColor = GameObject.FindObjectOfType<GetColor>();
+        getColors = FindObjectOfType<GetColor>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Renderer>().material.color = getColor.color;
+        GetComponent<Renderer>().material.color = getColors.colors;
     }
 }
