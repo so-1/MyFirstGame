@@ -17,14 +17,14 @@ public class MapScript : MonoBehaviour {
 	}
 	void Move(){
 		//自分のy位置をマイナス方向に毎回「0.05f」ずつ移動させる。
-		this.transform.position -= new Vector3 (0, 0.05f, 0);
+		this.transform.position += new Vector3 (0, 0.05f, 0);
 	}
 
 
 	void PosishonChanger(){
 		
 		//移動させたいオブジェクトを登録。ここでは「Map」
-		string NAME = "Map";
+		string NAME = "Main Camera";
 		//tmpに位置情報を記憶させる。
 		Vector3 tmp = GameObject.Find(NAME).transform.position;
 		//tmpの位置情報を更新。ここではxをプラス100する。
