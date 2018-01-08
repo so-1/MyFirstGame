@@ -16,8 +16,8 @@ public class MapScript : MonoBehaviour {
 		
 	}
 	void Move(){
-		//自分のy位置をマイナス方向に毎回「0.05f」ずつ移動させる。
-		this.transform.position += new Vector3 (0, 0.05f, 0);
+		//自分のy位置を＋方向に毎回「0.01f」ずつ移動させる。
+		this.transform.position += new Vector3 (0, 0.01f, 0);
 	}
 
 

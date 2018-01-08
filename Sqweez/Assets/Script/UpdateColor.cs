@@ -15,5 +15,6 @@ public class UpdateColor : MonoBehaviour
     void Update()
     {
         GetComponent<Renderer>().material.color = getColors.colors;
+
     }
 }
