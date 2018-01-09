@@ -87,12 +87,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameOverText.cs" />
     <Compile Include="Assets\Script\CameraMove.cs" />
+    <Compile Include="Assets\Script\ClickPositionCreatePrefabScript.cs" />
     <Compile Include="Assets\Script\CloudScript.cs" />
     <Compile Include="Assets\Script\ColorChecker.cs" />
+    <Compile Include="Assets\Script\GameOverText.cs" />
     <Compile Include="Assets\Script\GetColor.cs" />
-    <Compile Include="Assets\Script\MapScript.cs" />
+    <Compile Include="Assets\Script\MoveScript.cs" />
     <Compile Include="Assets\Script\PositionCheck.cs" />
     <Compile Include="Assets\Script\UpdateColor.cs" />
   </ItemGroup>

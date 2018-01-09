@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapScript : MonoBehaviour {
+public class MoveScript : MonoBehaviour {
 
 
 	// Use this for initialization
@@ -12,12 +12,13 @@ public class MapScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
 		Move();
 		
 	}
 	void Move(){
-		//自分のy位置を＋方向に毎回「0.01f」ずつ移動させる。
-		this.transform.position += new Vector3 (0, 0.01f, 0);
+		//自分のy位置を＋方向に毎回「0.03f」ずつ移動させる。
+		this.transform.position += new Vector3 (0, 0.03f, 0);
 	}
 
 
