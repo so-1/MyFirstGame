@@ -87,6 +87,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Sqweez.Plugins.csproj">
+      <Project>{6FC13816-FC0A-67E0-0B05-006F4D4CC8B7}</Project>
+      <Name>Sqweez.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AndroidReturn.cs" />
     <Compile Include="Assets\Script\CameraMove.cs" />
     <Compile Include="Assets\Script\ClickPositionCreatePrefabScript.cs" />
     <Compile Include="Assets\Script\CloudScript.cs" />
