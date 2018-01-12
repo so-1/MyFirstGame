@@ -17,4 +17,5 @@ public class GameOverText : MonoBehaviour {
     {
         GameObject.Find("Canvas").transform.Find("TextGAMEOVER").gameObject.SetActive(true);
     }
+
 }
