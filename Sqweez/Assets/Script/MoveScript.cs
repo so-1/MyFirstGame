@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveScript : MonoBehaviour {
 
     public float moveY = 0.03f;
-  
+
 	void Start () {
 		
 	}
@@ -24,10 +24,10 @@ public class MoveScript : MonoBehaviour {
 
 	void PosishonChanger(){
 		
-		//移動させたいオブジェクトを登録。ここでは「Map」
-		string NAME = "Main Camera";
-		//tmpに位置情報を記憶させる。
-		Vector3 tmp = GameObject.Find(NAME).transform.position;
+		//string NAME = "Main Camera";
+		
+        //tmpに位置情報を記憶させる。
+		Vector3 tmp = this.transform.position;
 		//tmpの位置情報を更新。ここではxをプラス100する。
 		tmp = new Vector3(tmp.x + 100, tmp.y, tmp.z);
 
