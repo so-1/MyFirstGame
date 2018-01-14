@@ -93,11 +93,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AndroidReturn.cs" />
+    <Compile Include="Assets\Script\AndroidReturn.cs" />
     <Compile Include="Assets\Script\CameraMove.cs" />
     <Compile Include="Assets\Script\ClickPositionCreatePrefabScript.cs" />
     <Compile Include="Assets\Script\CloudScript.cs" />
     <Compile Include="Assets\Script\ColorChecker.cs" />
+    <Compile Include="Assets\Script\CreatureScript.cs" />
     <Compile Include="Assets\Script\GameOverText.cs" />
     <Compile Include="Assets\Script\GetColor.cs" />
     <Compile Include="Assets\Script\MoveScript.cs" />

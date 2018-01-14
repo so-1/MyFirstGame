@@ -27,6 +27,10 @@ public class ClickPositionCreatePrefabScript : MonoBehaviour
             // オブジェクト生成 : オブジェクト(GameObject), 位置(Vector3), 角度(Quaternion)
             // ScreenToWorldPoint(位置(Vector3))：スクリーン座標をワールド座標に変換する
             Instantiate(Prefab, Camera.main.ScreenToWorldPoint(clickPosition), Prefab.transform.rotation);
+
+
+            Destroy(Prefab, 0.1f);
+
         }
     }
 }

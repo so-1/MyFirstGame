@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class MoveScript : MonoBehaviour {
 
-
-	// Use this for initialization
+    public float moveY = 0.03f;
+  
 	void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        
-		Move();
+   
+        Move();
 		
 	}
-	void Move(){
-		//自分のy位置を＋方向に毎回「0.03f」ずつ移動させる。
-		this.transform.position += new Vector3 (0, 0.03f, 0);
+    private void Move(){
+        //自分のy位置を＋方向に毎回「0.03f」ずつ移動させる。
+        this.transform.position += new Vector3 (0, moveY, 0);
 	}
 
 
